@@ -42,9 +42,7 @@ struct mapa: View {
     @State var  aux : location = location(nome: "EUA", zoom: MKCoordinateSpan(latitudeDelta: 35, longitudeDelta: 35), endereco: CLLocationCoordinate2D(latitude: 36.536916, longitude: -95.722690), flag: "https://www.qualviagem.com.br/wp-content/uploads/2018/08/iStock-692647864.jpg", description: "Os EUA são um país com 50 estados que cobrem uma vasta faixa da América do Norte, com o Alasca ao noroeste e o Havaí no Oceano Pacífico, estendendo a presença do país. As principais cidades da costa atlântica são Nova York, um centro financeiro e cultural global, e a capital, Washington, DC. Chicago, uma metrópole do centro-oeste, é conhecida por sua importante arquitetura, enquanto Los Angeles, na costa oeste, é famosa pelas produções cinematográficas de Hollywood.")
     
     var body: some View {
-   /*.onLongPressGesture {
-        print("Long pressed!")
-    }*/
+  
         VStack{
             Text("World map").font(.title).bold()
             Text("Brazil")
@@ -71,7 +69,7 @@ struct mapa: View {
                     }
                 }
             }
-            //segundoCaminho2(nomePronto: nome)){
+          
         }.sheet(isPresented: $modal){
             VStack{
                 Text(aux.nome).bold().font(.title)
