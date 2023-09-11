@@ -45,7 +45,7 @@ struct mapa: View {
   
         VStack{
             Text("World map").font(.title).bold()
-            Text("Brazil")
+            Text(aux.nome)
             Spacer()
             
             Map(coordinateRegion: $region, annotationItems: localizacoes){
