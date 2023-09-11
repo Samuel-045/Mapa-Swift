@@ -1,6 +1,6 @@
 # Mapa-Swift
 <p align="center">
-    <img src="https://img.shields.io/badge/STATUS-EM_DESENVOLVIMENTO-blue?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/STATUS-FINALIZADOO-blue?style=for-the-badge"/>
     <img src="https://img.shields.io/github/last-commit/Samuel-045/Mapa-Swift?style=for-the-badge"/>
 </p>
 
